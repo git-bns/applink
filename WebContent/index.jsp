@@ -28,15 +28,23 @@ String remoteUrl = connType + InetAddress.getLocalHost().getHostAddress() + ":" 
 <td><a href="<%=remoteUrl %>/ems/" target="_blank"><%=remoteUrl %>/ems/</a></td>
 </tr>
 <tr>
-<td>Talkz</td><td>-</td><td>talkz</td><td><a href="<%=serverUrl %>/talkz/" target="_blank"><%=serverUrl %>/talkz/</a></td>
+<td>Store Inventory</td><td>3.0</td><td>tsi</td><td><a href="<%=serverUrl %>/tsi/" target="_blank"><%=serverUrl %>/tsi/</a></td>
+<td><a href="<%=remoteUrl %>/tsi/" target="_blank"><%=remoteUrl %>/tsi/</a></td>
+</tr>
+<tr>
+<td>Online Movie Store</td><td>1.0</td><td>oms</td><td><a href="<%=serverUrl %>/oms/" target="_blank"><%=serverUrl %>/oms/</a></td>
+<td><a href="<%=remoteUrl %>/oms/" target="_blank"><%=remoteUrl %>/oms/</a></td>
+</tr>
+<tr>
+<td>Talkz</td><td>1.0</td><td>talkz</td><td><a href="<%=serverUrl %>/talkz/" target="_blank"><%=serverUrl %>/talkz/</a></td>
 <td><a href="<%=remoteUrl %>/talkz/" target="_blank"><%=remoteUrl %>/talkz/</a></td>
 </tr>
 <tr>
-<td>S2R Chat</td><td>-</td><td>chat</td><td><a href="<%=serverUrl %>/chat/" target="_blank"><%=serverUrl %>/chat/</a></td>
-<td><a href="<%=remoteUrl %>/chat/" target="_blank"><%=remoteUrl %>/chat/</a></td>
+<td>Simple Chat</td><td>1.0</td><td>simplechat</td><td><a href="<%=serverUrl %>/simplechat/" target="_blank"><%=serverUrl %>/simplechat/</a></td>
+<td><a href="<%=remoteUrl %>/simplechat/" target="_blank"><%=remoteUrl %>/simplechat/</a></td>
 </tr>
 <tr>
-<td>iXchange Chat</td><td>-</td><td>ixchange</td><td><a href="<%=serverUrl %>/ixchange/" target="_blank"><%=serverUrl %>/ixchange/</a></td>
+<td>iXchange Chat</td><td>1.0</td><td>ixchange</td><td><a href="<%=serverUrl %>/ixchange/" target="_blank"><%=serverUrl %>/ixchange/</a></td>
 <td><a href="<%=remoteUrl %>/ixchange/" target="_blank"><%=remoteUrl %>/ixchange/</a></td>
 </tr>
 <tr>
@@ -44,15 +52,19 @@ String remoteUrl = connType + InetAddress.getLocalHost().getHostAddress() + ":" 
 <td><a href="<%=remoteUrl %>/eaudit/" target="_blank"><%=remoteUrl %>/eaudit/</a></td>
 </tr>
 <tr>
+<td>eData</td><td>1.0</td><td>edata</td><td><a href="<%=serverUrl %>/edata/" target="_blank"><%=serverUrl %>/edata/</a></td>
+<td><a href="<%=remoteUrl %>/edata/" target="_blank"><%=remoteUrl %>/edata/</a></td>
+</tr>
+<tr>
 <td>Applink</td><td>1.5</td><td>applink</td><td><a href="<%=serverUrl %>/applink/" target="_blank"><%=serverUrl %>/applink/</a></td>
 <td><a href="<%=remoteUrl %>/applink/" target="_blank"><%=remoteUrl %>/applink/</a></td>
 </tr>
 <tr>
-<td>Server AppMgr</td><td>bnsappmgr</td><td>-</td><td><a href="<%=serverUrl %>/manager/index.jsp" target="_blank"><%=serverUrl %>/manager/index.jsp</a></td>
+<td>Server AppMgr</td><td>bnsappmgr</td><td>manager</td><td><a href="<%=serverUrl %>/manager/index.jsp" target="_blank"><%=serverUrl %>/manager/index.jsp</a></td>
 <td><a href="<%=remoteUrl %>/manager/index.jsp" target="_blank"><%=remoteUrl %>/manager/index.jsp</a></td>
 </tr>
 <tr>
-<td>Server HostMgr</td><td>bnshostadmin</td><td>-</td><td><a href="<%=serverUrl %>/host-manager/index.jsp" target="_blank"><%=serverUrl %>/host-manager/index.jsp</a></td>
+<td>Server HostMgr</td><td>bnshostadmin</td><td>host-manager</td><td><a href="<%=serverUrl %>/host-manager/index.jsp" target="_blank"><%=serverUrl %>/host-manager/index.jsp</a></td>
 <td><a href="<%=remoteUrl %>/host-manager/index.jsp" target="_blank"><%=remoteUrl %>/host-manager/index.jsp</a></td>
 </tr>
 </tbody>

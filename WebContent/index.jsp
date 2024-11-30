@@ -56,7 +56,7 @@ String remoteUrl = connType + InetAddress.getLocalHost().getHostAddress() + ":" 
 <td><a href="<%=remoteUrl %>/edata/" target="_blank"><%=remoteUrl %>/edata/</a></td>
 </tr>
 <tr>
-<td>Applink</td><td>1.5</td><td>applink</td><td><a href="<%=serverUrl %>/applink/" target="_blank"><%=serverUrl %>/applink/</a></td>
+<td>AppLink</td><td>1.5</td><td>applink</td><td><a href="<%=serverUrl %>/applink/" target="_blank"><%=serverUrl %>/applink/</a></td>
 <td><a href="<%=remoteUrl %>/applink/" target="_blank"><%=remoteUrl %>/applink/</a></td>
 </tr>
 <tr>

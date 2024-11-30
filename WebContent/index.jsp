@@ -56,6 +56,10 @@ String remoteUrl = connType + InetAddress.getLocalHost().getHostAddress() + ":" 
 <td><a href="<%=remoteUrl %>/edata/" target="_blank"><%=remoteUrl %>/edata/</a></td>
 </tr>
 <tr>
+<td>Prativa on Canvas</td><td>1.0.0</td><td>poc</td><td><a href="http://localhost:9092/" target="_blank">http://localhost:9092/</a></td>
+<td><a href="http://127.0.0.1:9092/" target="_blank">http://127.0.0.1:9092/</a></td>
+</tr>
+<tr>
 <td>AppLink</td><td>1.5</td><td>applink</td><td><a href="<%=serverUrl %>/applink/" target="_blank"><%=serverUrl %>/applink/</a></td>
 <td><a href="<%=remoteUrl %>/applink/" target="_blank"><%=remoteUrl %>/applink/</a></td>
 </tr>

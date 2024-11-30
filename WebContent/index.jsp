@@ -28,20 +28,20 @@ String remoteUrl = connType + InetAddress.getLocalHost().getHostAddress() + ":" 
 <td><a href="<%=remoteUrl %>/ems/" target="_blank"><%=remoteUrl %>/ems/</a></td>
 </tr>
 <tr>
-<td>Talkz</td><td>-</td><td>Talkz</td><td><a href="<%=serverUrl %>/Talkz/" target="_blank"><%=serverUrl %>/Talkz/</a></td>
-<td><a href="<%=remoteUrl %>/Talkz/" target="_blank"><%=remoteUrl %>/Talkz/</a></td>
+<td>Talkz</td><td>-</td><td>talkz</td><td><a href="<%=serverUrl %>/talkz/" target="_blank"><%=serverUrl %>/talkz/</a></td>
+<td><a href="<%=remoteUrl %>/talkz/" target="_blank"><%=remoteUrl %>/talkz/</a></td>
 </tr>
 <tr>
 <td>S2R Chat</td><td>-</td><td>chat</td><td><a href="<%=serverUrl %>/chat/" target="_blank"><%=serverUrl %>/chat/</a></td>
 <td><a href="<%=remoteUrl %>/chat/" target="_blank"><%=remoteUrl %>/chat/</a></td>
 </tr>
 <tr>
-<td>iXchange Chat</td><td>-</td><td>iXchange</td><td><a href="<%=serverUrl %>/iXchange/" target="_blank"><%=serverUrl %>/iXchange/</a></td>
-<td><a href="<%=remoteUrl %>/iXchange/" target="_blank"><%=remoteUrl %>/iXchange/</a></td>
+<td>iXchange Chat</td><td>-</td><td>ixchange</td><td><a href="<%=serverUrl %>/ixchange/" target="_blank"><%=serverUrl %>/ixchange/</a></td>
+<td><a href="<%=remoteUrl %>/ixchange/" target="_blank"><%=remoteUrl %>/ixchange/</a></td>
 </tr>
 <tr>
-<td>eAudit</td><td>1.0</td><td>eAudit</td><td><a href="<%=serverUrl %>/eAudit/" target="_blank"><%=serverUrl %>/eAudit/</a></td>
-<td><a href="<%=remoteUrl %>/eAudit/" target="_blank"><%=remoteUrl %>/eAudit/</a></td>
+<td>eAudit</td><td>1.0</td><td>eaudit</td><td><a href="<%=serverUrl %>/eaudit/" target="_blank"><%=serverUrl %>/eaudit/</a></td>
+<td><a href="<%=remoteUrl %>/eaudit/" target="_blank"><%=remoteUrl %>/eaudit/</a></td>
 </tr>
 <tr>
 <td>Applink</td><td>1.5</td><td>applink</td><td><a href="<%=serverUrl %>/applink/" target="_blank"><%=serverUrl %>/applink/</a></td>

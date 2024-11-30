@@ -59,14 +59,6 @@ String remoteUrl = connType + InetAddress.getLocalHost().getHostAddress() + ":" 
 <td>AppLink</td><td>1.5</td><td>applink</td><td><a href="<%=serverUrl %>/applink/" target="_blank"><%=serverUrl %>/applink/</a></td>
 <td><a href="<%=remoteUrl %>/applink/" target="_blank"><%=remoteUrl %>/applink/</a></td>
 </tr>
-<tr>
-<td>Server AppMgr</td><td>bnsappmgr</td><td>manager</td><td><a href="<%=serverUrl %>/manager/index.jsp" target="_blank"><%=serverUrl %>/manager/index.jsp</a></td>
-<td><a href="<%=remoteUrl %>/manager/index.jsp" target="_blank"><%=remoteUrl %>/manager/index.jsp</a></td>
-</tr>
-<tr>
-<td>Server HostMgr</td><td>bnshostadmin</td><td>host-manager</td><td><a href="<%=serverUrl %>/host-manager/index.jsp" target="_blank"><%=serverUrl %>/host-manager/index.jsp</a></td>
-<td><a href="<%=remoteUrl %>/host-manager/index.jsp" target="_blank"><%=remoteUrl %>/host-manager/index.jsp</a></td>
-</tr>
 </tbody>
 </table>
 

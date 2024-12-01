@@ -16,8 +16,8 @@ RUN mkdir -p /usr/local/tomcat/conf/Catalina/localhost && \
     chmod -R 755 /usr/local/tomcat/conf /usr/local/tomcat/webapps
 
 # Step 4: Copy the application package and folder from the Maven build to the Tomcat webapps directory
-COPY --from=MAVEN_TOOL_CHAIN /tmp/target/applink-*.war $TOMCAT_SERVER/usr/local/tomcat/webapps/applink.war
-COPY --from=MAVEN_TOOL_CHAIN /tmp/target/applink-*/* $TOMCAT_SERVER/usr/local/tomcat/webapps/applink/
+COPY --from=MAVEN_TOOL_CHAIN /tmp/target/applink-1.5.war $TOMCAT_SERVER/usr/local/tomcat/webapps/applink.war
+COPY --from=MAVEN_TOOL_CHAIN /tmp/target/applink-1.5 $TOMCAT_SERVER/usr/local/tomcat/webapps/applink/
 
 # Step 5: Expose the default Tomcat port
 EXPOSE 8080

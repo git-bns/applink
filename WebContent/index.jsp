@@ -100,6 +100,13 @@
 					<td><a href="<%=remoteUrl%>/edata/" target="_blank"><%=remoteUrl%>/edata/</a></td>
 				</tr>
 				<tr>
+					<td>The Shoppe Portal</td>
+					<td>1.0</td>
+					<td>shoppe</td>
+					<td><a href="<%=serverUrl%>/shoppe/" target="_blank"><%=serverUrl%>/shoppe/</a></td>
+					<td><a href="<%=remoteUrl%>/shoppe/" target="_blank"><%=remoteUrl%>/shoppe/</a></td>
+				</tr>
+				<tr>
 					<td>Prativa on Canvas</td>
 					<td>1.0.0</td>
 					<td>poc</td>

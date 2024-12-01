@@ -21,3 +21,15 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Builds
+build/
+
+# IDE files
+.classpath
+.project
+.settings
+target
+.odo
+.idea
+.DS_Store

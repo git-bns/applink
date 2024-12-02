@@ -31,8 +31,8 @@
 			<tbody>
 				<tr>
 					<th align="left" width="150">Application</th>
-					<th align="left" width="120">Version</th>
-					<th align="left" width="90">Context</th>
+					<th align="left" width="90">Version</th>
+					<th align="left" width="120">Context</th>
 					<th align="left">Local Address</th>
 					<th align="left">Remote Address</th>
 				</tr>
@@ -123,7 +123,7 @@
 				<tr>
 					<td>Prativa on Canvas</td>
 					<td>1.0.0</td>
-					<td>en</td>
+					<td>prativa-on-canvas</td>
 					<td><a href="https://prativaoncanvas.github.io/bn/" target="_blank">https://prativaoncanvas.github.io/bn/</a></td>
 					<td><a href="https://prativaoncanvas.github.io/en/" target="_blank">https://prativaoncanvas.github.io/en/</a></td>
 				</tr>

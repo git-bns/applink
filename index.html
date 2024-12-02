@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="src/main/webapp/favicon/favicon.ico" />
+<link rel="icon" type="image/png" sizes="32x32" href="src/main/webapp/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="src/main/webapp/favicon/favicon-16x16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="src/main/webapp/favicon/apple-touch-icon.png">
+<link rel="manifest" href="src/main/webapp/favicon/site.webmanifest">
+<title>AppLink&reg;</title>
+<style>
+table {
+	border-collapse: collapse;
+	width: 80%;
+	border: 1px solid; /* Increased border width */
+}
+
+th, td {
+	border: 1px solid; /* Increased cell border width */
+	padding: 4px;
+	text-align: left;
+}
+
+.dropdown-container {
+	margin-bottom: 15px;
+	display: flex;
+	justify-content: flex-start; /* Aligns to the left */
+	align-items: center;
+	gap: 10px;
+	width: 80%; /* Matches table width for alignment */
+}
+</style>
+</head>
+
+<body>
+	<center>
+		<font style="font-weight: bold; font-size: 26px;">AppLink&reg;</font> - An Enterprise Application Links <br />
+		<hr />
+		<br />
+		<div class="dropdown-container">
+			<label for="server-dropdown">Select Server: </label> <select
+				id="server-dropdown">
+				<option value="http-localhost">HTTP - Localhost</option>
+				<option value="https-localhost">HTTPS - Localhost</option>
+				<option value="openshift-cloud">CloudHost - OpenShift</option>
+			</select>
+		</div>
+		<table>
+			<thead>
+				<tr>
+					<th align="left" width="150">Application</th>
+					<th align="left" width="90">Version</th>
+					<th align="left" width="120">Context</th>
+					<th align="left">Remote Address</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>AppLink&reg;</td>
+					<td>1.5</td>
+					<td>applink</td>
+					<td><a href="http://localhost:9090/applink/" target="_blank">http://localhost:9090/applink/</a></td>
+				</tr>
+				<tr>
+					<td>EMS Evolution</td>
+					<td>10.1</td>
+					<td>ems</td>
+					<td><a href="http://localhost:9090/ems/" target="_blank">http://localhost:9090/ems/</a></td>
+				</tr>
+				<tr>
+					<td>Store Inventory</td>
+					<td>3.0</td>
+					<td>tsi</td>
+					<td><a href="http://localhost:9090/tsi/" target="_blank">http://localhost:9090/tsi/</a></td>
+				</tr>
+				<tr>
+					<td>Online Movie Store</td>
+					<td>1.0</td>
+					<td>oms</td>
+					<td><a href="http://localhost:9090/oms/" target="_blank">http://localhost:9090/oms/</a></td>
+				</tr>
+				<tr>
+					<td>Talkz</td>
+					<td>1.0</td>
+					<td>talkz</td>
+					<td><a href="http://localhost:9090/talkz/" target="_blank">http://localhost:9090/talkz/</a></td>
+				</tr>
+				<tr>
+					<td>Simple Chat</td>
+					<td>1.0</td>
+					<td>simplechat</td>
+					<td><a href="http://localhost:9090/simplechat/" target="_blank">http://localhost:9090/simplechat/</a></td>
+				</tr>
+				<tr>
+					<td>iXchange Chat</td>
+					<td>1.0</td>
+					<td>ixchange</td>
+					<td><a href="http://localhost:9090/ixchange/" target="_blank">http://localhost:9090/ixchange/</a></td>
+				</tr>
+				<tr>
+					<td>eAudit</td>
+					<td>1.0</td>
+					<td>eaudit</td>
+					<td><a href="http://localhost:9090/eaudit/" target="_blank">http://localhost:9090/eaudit/</a></td>
+				</tr>
+				<tr>
+					<td>eData</td>
+					<td>1.0</td>
+					<td>edata</td>
+					<td><a href="http://localhost:9090/edata/" target="_blank">http://localhost:9090/edata/</a></td>
+				</tr>
+				<tr>
+					<td>The Shoppe Portal</td>
+					<td>1.0</td>
+					<td>shoppe</td>
+					<td><a href="http://localhost:9090/shoppe/" target="_blank">http://localhost:9090/shoppe/</a></td>
+				</tr>
+				<tr>
+					<td>The Gems Tuition</td>
+					<td>1.0</td>
+					<td>gemstuition</td>
+					<td><a href="https://git-bns.github.io/gemstuition/" target="_blank">https://git-bns.github.io/gemstuition/</a></td>
+				</tr>
+				<tr>
+					<td>My Weekend Plan</td>
+					<td>1.0</td>
+					<td>myweekendplan</td>
+					<td><a href="https://git-bns.github.io/myweekendplan/" target="_blank">https://git-bns.github.io/myweekendplan/</a></td>
+				</tr>
+				<tr>
+					<td>Prativa on Canvas</td>
+					<td>1.0.0</td>
+					<td>prativa-on-canvas</td>
+					<td><a href="https://prativa-on-canvas-bns-1-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/" target="_blank">https://prativa-on-canvas-bns-1-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com/</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</center>
+
+	<script>
+        const dropdown = document.getElementById('server-dropdown');
+        dropdown.addEventListener('change', (event) => {
+            const selectedOption = event.target.value;
+
+            // Function to update href and displayed text in the links
+            const updateLinks = (serverType) => {
+                const links = document.querySelectorAll('table tbody tr');
+                links.forEach(row => {
+                    const remoteLink = row.cells[3].querySelector('a');
+
+                    if (remoteLink) {
+                        const context = row.cells[2].textContent.trim();
+                        let baseRemote;
+
+                        if (serverType === 'http-localhost') {
+                            baseRemote = `http://localhost:9090`;
+                        } else if (serverType === 'https-localhost') {
+                            baseRemote = `https://localhost:8443`;
+                        } else if (serverType === 'openshift-cloud') {
+                            baseRemote = "https://" + `${context}` + `-bns-1-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com`;
+                        }
+
+                        // Update href and visible text
+                        remoteLink.href = `${baseRemote}/${context}/`;
+                        remoteLink.textContent = `${baseRemote}/${context}/`;
+                    }
+                });
+            };
+
+            updateLinks(selectedOption);
+        });
+    </script>
+
+</body>
+</html>

@@ -8,6 +8,7 @@
 	<packaging>war</packaging>
 	<name>AppLink</name>
 	<description>An Enterprise Application Links</description>
+
 	<build>
 		<plugins>
 			<plugin>
@@ -25,4 +26,5 @@
 			</plugin>
 		</plugins>
 	</build>
+
 </project>

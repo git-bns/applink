@@ -107,13 +107,6 @@
 					<td><a href="<%=remoteUrl%>/shoppe/" target="_blank"><%=remoteUrl%>/shoppe/</a></td>
 				</tr>
 				<tr>
-					<td>Prativa on Canvas</td>
-					<td>1.0.0</td>
-					<td>poc</td>
-					<td><a href="http://localhost:9092/" target="_blank">http://localhost:9092/</a></td>
-					<td><a href="http://127.0.0.1:9092/" target="_blank">http://127.0.0.1:9092/</a></td>
-				</tr>
-				<tr>
 					<td>The Gems Tuition</td>
 					<td>1.0</td>
 					<td>gemstuition</td>
@@ -126,6 +119,13 @@
 					<td>myweekendplan</td>
 					<td><a href="https://git-bns.github.io/myweekendplan/" target="_blank">https://git-bns.github.io/myweekendplan/</a></td>
 					<td><a href="https://git-bns.github.io/myweekendplan/" target="_blank">https://git-bns.github.io/myweekendplan/</a></td>
+				</tr>
+				<tr>
+					<td>Prativa on Canvas</td>
+					<td>1.0.0</td>
+					<td>en</td>
+					<td><a href="https://prativaoncanvas.github.io/bn/" target="_blank">https://prativaoncanvas.github.io/bn/</a></td>
+					<td><a href="https://prativaoncanvas.github.io/en/" target="_blank">https://prativaoncanvas.github.io/en/</a></td>
 				</tr>
 			</tbody>
 		</table>

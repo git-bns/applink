@@ -44,6 +44,7 @@ th, td {
 				id="server-dropdown">
 				<option value="http-localhost">HTTP - Localhost</option>
 				<option value="https-localhost">HTTPS - Localhost</option>
+				<option value="oracle-cloud">CloudHost - Oracle</option>
 				<option value="openshift-cloud">CloudHost - OpenShift</option>
 			</select>
 		</div>
@@ -158,6 +159,8 @@ th, td {
                             baseRemote = `http://localhost:9090`;
                         } else if (serverType === 'https-localhost') {
                             baseRemote = `https://localhost:8443`;
+                        } else if (serverType === 'oracle-cloud') {
+                        	baseRemote = `http://129.153.226.97:8080`;
                         } else if (serverType === 'openshift-cloud') {
                             baseRemote = "https://" + `${context}` + `-bns-1-dev.apps.sandbox-m2.ll9k.p1.openshiftapps.com`;
                         }
